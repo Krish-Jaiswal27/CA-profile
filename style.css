@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(38, 206, 206);
+    color: rgb(210, 230, 227);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+nav{
+    display:flex;
+    gap: 20px
+}
+nav a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.hero{
+    position: relative;
+    width: 100%;
+}
+
+.hero img{
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+
+.hero button{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    padding: 12px 25px;
+    border: none;
+    background: teal;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
